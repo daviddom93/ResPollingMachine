@@ -20,5 +20,6 @@
     <string name="elijavoto">Elija su voto y después pulse VOTAR:</string>
     <string name="semanaVoto">Votación para la semana 3 del mes de enero</string>
     <string name="recibidos">Votos recibidos:</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
 
 </resources>
