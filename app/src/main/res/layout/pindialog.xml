@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:paddingTop="9dp">
+
+    <TextView
+        android:id="@+id/tvPinTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:text="@string/pinTitulo"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:paddingBottom="2dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:paddingTop="9dp">
+
+        <TextView
+            android:id="@+id/tvPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="top|left"
+            android:text="@string/pin"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editPin"
+            android:layout_width="160dip"
+            android:layout_height="65dip"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

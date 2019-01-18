@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="restaurantes">
+        <item>Voto aleatorio</item>
+        <item>80 grados</item>
+        <item>Ándele</item>
+        <item>Puxa Asturies</item>
+        <item>Bendita Pizza</item>
+        <item>Foster\'s Hollywood</item>
+        <item>Ginos</item>
+        <item>Goiko Grill</item>
+        <item>Imanol</item>
+        <item>El kiosko</item>
+        <item>La mano de Pablo</item>
+        <item>Miss Sushi</item>
+        <item>Morao</item>
+        <item>Pádel</item>
+        <item>Sonsoles</item>
+        <item>Tagliatella</item>
+        <item>Tommy Mel\'s</item>
+        <item>Tony Roma\'s</item>
+        <item>Udon</item>
+        <item>Vips</item>
+        <item>Volapié</item>
+    </string-array>
+
+    <integer-array name="imagenes">
+        <item>@drawable/random</item>
+        <item>@drawable/grados</item>
+        <item>@drawable/andele</item>
+        <item>@drawable/asturias</item>
+        <item>@drawable/benditapizza</item>
+        <item>@drawable/foster</item>
+        <item>@drawable/ginos</item>
+        <item>@drawable/goiko</item>
+        <item>@drawable/imanol</item>
+        <item>@drawable/kiosko</item>
+        <item>@drawable/pablo</item>
+        <item>@drawable/misssushi</item>
+        <item>@drawable/morao</item>
+        <item>@drawable/padel</item>
+        <item>@drawable/sonsoles</item>
+        <item>@drawable/tagliatella</item>
+        <item>@drawable/tommy</item>
+        <item>@drawable/tonyromas</item>
+        <item>@drawable/udon</item>
+        <item>@drawable/vips</item>
+        <item>@drawable/volapie</item>
+    </integer-array>
+</resources>

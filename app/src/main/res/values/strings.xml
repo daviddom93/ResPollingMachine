@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Restaurant Polling Machine</string>
+    <string name="votar">Votar</string>
+    <string name="reset">Reset</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="resultados">Resultados</string>
+    <string name="pin">Introduzca el pin para continuar:</string>
+    <string name="pinTitulo">Introduzca pin</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="pass">0000</string>
+    <string name="passIncorrecta">Contraseña incorrecta</string>
+    <string name="titulo_acercade">Acerca de</string>
+    <string name="acercade">"Aplicación desarrollada por David Ortega y Maripi Moreno.\nProhibido el uso fraudulento de la aplicación votando al pádel.</string>
+    <string name="titulo_ley">Ley orgánica electoral del 15 de febrero de 2018</string>
+    <string name="ley">Reunidos todos los interesados, se acuerda la celebración de las elecciones a restaurante para comida del jueves.\nEstas elecciones se repetirán cada semana siguiendo los criterios que se indican a continuación:\n<b>1.</b> Cada persona tiene el derecho y la obligación de votar.\n<b>2.</b> Sólo serán contabilizados los votos que se hayan realizado utilizando la tablet oficial que será entregada en el momento de votar a cada interesado.\n<b>3.</b> Sólo se puede votar por un restaurante.\n<b>4.</b> Se podrá votar a un restaurante de forma aleatoria.\n<b>5.</b> Si se intuye alguna actividad sospechosa con la tablet por parte de algún votante perderá su derecho a participar.\n<b>6.</b> La elección del restaurante será siguiendo el método del más votado, con las siguientes peculiaridades:\n\t<i>a.</i> Si un restaurante obtiene mayoría de votos en primera vuelta, será el elegido.\n\t<i>b.</i> Si en primera vuelta 2 o más restaurantes obtienen el mismo número de votos válidos, se realizará una segunda votación en la cual sólo se podrá votar a dichos restaurantes.\n\t<i>c.</i> Si en segunda vuelta 2 o más restaurantes continúan empatados, se sorteará el ganador.</string>
+    <string name="segundavuelta">Ir a segunda vuelta</string>
+    <string name="ganador">Ganador</string>
+    <string name="votosrecibidos">Votos recibidos: 0</string>
+    <string name="elijavoto">Elija su voto y después pulse VOTAR:</string>
+    <string name="semanaVoto">Votación para la semana 3 del mes de enero</string>
+    <string name="recibidos">Votos recibidos:</string>
+
+</resources>

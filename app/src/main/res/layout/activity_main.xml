@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija su voto:"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <TextView
+        android:id="@+id/txtElija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/elijavoto"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerVotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btnVotar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/votar"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/finalizar"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtVotosTotales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/votosrecibidos"
+        android:textSize="21sp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ganador"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnSegunda"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/segundavuelta"
+        android:textColor="@android:color/white"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_marginTop="50dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgWinner1"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:id="@+id/imgWinner2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <ImageView
+            android:id="@+id/imgWinner3"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnResultados"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/resultados"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
